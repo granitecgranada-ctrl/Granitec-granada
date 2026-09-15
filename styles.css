@@ -1,1 +1,43 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#102b4e;background:#fff;line-height:1.55}.container{width:min(1120px,92%);margin:auto}.header{background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 2px 15px #00000012}.topbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;color:#0b315a;text-decoration:none}.brand-mark{font-size:34px;color:#08a8e6}.brand strong{display:block;font-size:27px;line-height:1}.brand strong span{color:#09a9e8}.brand small{display:block;font-size:13px}.header-contact{display:flex;align-items:center;gap:14px}.phone{color:#0b315a;text-decoration:none;font-size:18px}.phone small{display:block;font-size:11px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:9px;padding:13px 20px;text-decoration:none;font-weight:700;border:0;cursor:pointer}.btn small{font-weight:400}.btn-whatsapp{background:#14b84a;color:#fff}.btn-primary{background:#0874d9;color:#fff}.btn-outline{border:2px solid #fff;color:#fff;background:#123b63}.nav{background:#062c4d}.nav-inner{display:flex}.nav a{color:#fff;text-decoration:none;padding:12px 22px;font-weight:700}.nav a:hover{background:#087bdc}.hero{min-height:510px;background-image:url('https://images.unsplash.com/photo-1631545806609-2f7f4a8e7b9c?auto=format&fit=crop&w=1800&q=85');background-size:cover;background-position:center}.hero-overlay{min-height:510px;background:linear-gradient(90deg,#071f35f5 0%,#092f50df 45%,#092f5060 75%,#092f5020 100%);display:flex;align-items:center}.hero-content{color:#fff;padding:55px 0}.eyebrow{font-weight:800;letter-spacing:1.5px;font-size:13px;margin:0 0 10px}.eyebrow.blue{color:#087bdc}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.05;max-width:780px;margin:0}.hero h1 span{color:#11b7f2}.hero-sub{font-size:23px;margin:18px 0}.trust{display:flex;gap:28px;flex-wrap:wrap;margin:22px 0;font-weight:600}.actions{display:flex;gap:14px;flex-wrap:wrap}.services-strip{background:#fff;padding:25px 0;box-shadow:0 3px 15px #00000012}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.service-grid article{text-align:center;padding:8px 18px;border-right:1px solid #d8e2ec}.service-grid article:last-child{border:0}.icon{font-size:32px;color:#087bdc}.service-grid h3{margin:5px 0;font-size:17px}.service-grid p{margin:0;font-size:13px;color:#607086}.section{padding:75px 0}.section-heading{max-width:700px;margin-bottom:35px}.section-heading h2,.contact h2,.area h2{font-size:38px;line-height:1.1;margin:0 0 10px}.section-heading p:last-child{color:#607086}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 7px 28px #183b5b16;border:1px solid #e6edf4}.card img{width:100%;height:220px;object-fit:cover;display:block}.card div{padding:20px}.card h3{margin:0 0 7px}.card p{margin:0;color:#607086}.gallery-section{background:#f3f8fc}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.gallery img{width:100%;height:210px;object-fit:cover;border-radius:10px}.note{font-size:13px;color:#68798b;margin-top:15px}.area{background:linear-gradient(110deg,#082d4e,#0b5686);color:#fff;padding:65px 0}.area-inner{display:grid;grid-template-columns:2fr 1fr;gap:40px;align-items:center}.area h2{font-size:42px}.area p{max-width:650px}.area-card{background:#fff;color:#102b4e;border-radius:14px;padding:25px}.area-card p{color:#607086}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.contact-phone{display:block;font-size:30px;font-weight:800;color:#0a4f86;text-decoration:none;margin:25px 0}.wide{width:100%;margin-top:12px}form{background:#f4f8fb;padding:28px;border-radius:14px;border:1px solid #e2ebf2}form h3{margin-top:0;font-size:24px}label{display:block;font-weight:700;font-size:14px;margin:13px 0}input,textarea{display:block;width:100%;margin-top:6px;border:1px solid #cbd8e4;border-radius:8px;padding:12px;font:inherit;background:#fff}textarea{resize:vertical}form small{display:block;color:#6b7c8d;margin-top:10px}.footer{background:#062c4d;color:#fff;padding:40px 0 15px}.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1.5fr;gap:35px}.footer-brand{color:#fff}.footer p{color:#c7d7e6}.copyright{border-top:1px solid #ffffff30;margin-top:25px;padding-top:15px;color:#aec2d3;font-size:12px}@media(max-width:800px){.header{position:static}.topbar{padding:12px 0}.header-contact .phone{display:none}.nav-inner{overflow:auto}.nav a{padding:11px 14px;white-space:nowrap}.hero,.hero-overlay{min-height:590px}.hero-content{padding:45px 0}.trust{display:block}.trust div{margin:8px 0}.service-grid,.cards,.gallery,.contact-grid,.area-inner,.footer-grid{grid-template-columns:1fr}.service-grid article{border-right:0;border-bottom:1px solid #d8e2ec;padding-bottom:18px}.gallery img{height:240px}.section{padding:55px 0}.section-heading h2,.contact h2,.area h2{font-size:32px}.brand strong{font-size:23px}.brand-mark{font-size:28px}}
+
+
+/* Logos GraniTec */
+.brand-logo {
+  display: block;
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.hero-logo {
+  display: block;
+  width: min(270px, 70vw);
+  height: auto;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px #00000035;
+}
+
+.footer-logo {
+  display: block;
+  width: min(270px, 100%);
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width:800px) {
+  .brand-logo {
+    width: 58px;
+    height: 58px;
+  }
+
+  .hero-logo {
+    width: min(220px, 62vw);
+    margin-bottom: 18px;
+  }
+
+  .footer-logo {
+    width: min(240px, 80vw);
+  }
+}
